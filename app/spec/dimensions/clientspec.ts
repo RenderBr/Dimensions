@@ -110,13 +110,15 @@ describe("client", () => {
                 clientCount: 0,
                 disabled: false,
                 disabledTimeout: null,
-                failedConnAttempts: 0
+                failedConnAttempts: 0,
+                playerList: []
             },
             serverb: {
                 clientCount: 0,
                 disabled: false,
                 disabledTimeout: null,
-                failedConnAttempts: 0
+                failedConnAttempts: 0,
+                playerList: []
             }
         };
 
